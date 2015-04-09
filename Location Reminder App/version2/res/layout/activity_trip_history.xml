@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:divider="#FFF"
+    android:dividerHeight = "1px"
+	android:showDividers="beginning"
+	android:dividerPadding="2dp"
+
+	>
+<ListView 
+	android:id="@+id/trip_history_show"
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content" 
+	/>
+
+<TextView
+        android:id="@+id/notrip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/err_msg"
+        android:textColor="#ff0000"
+        android:paddingLeft="80dp"
+        android:paddingTop="80dp"
+        android:visibility="invisible"
+        android:textSize="20sp" />
+
+</LinearLayout>

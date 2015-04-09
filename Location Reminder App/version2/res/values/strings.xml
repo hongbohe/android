@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ETA</string>
+    <string name="action_settings">Settings</string>
+    <string name="create_trip_button">Create a Trip</string>
+	<string name="view_trip_button">My Trip History</string>
+	<string name="create_trip_submit_button">Create</string>
+	<string name="create_trip_cancel_button">Cancel</string>
+	
+	<string name="no_trip_toast">You have no trip right now!</string>
+	<string name="trip_id">Trip ID:</string>
+	<string name="trip_date">Date: </string>
+	<string name="trip_time">Time: </string>
+	<string name="trip_destination">Search location: </string>
+	<string name="friend_name">With friends: </string>
+	
+	<string name="hint_date">Please pick up the date</string>
+	<string name="hint_time">Please pick up the time</string>
+	<string name="hint_destination">Your destination</string>
+	<string name="hint_friends">You friend name</string>
+	<string name="err_msg">No Activity is found!</string>
+	<string name="hello_world">Hello World</string>
+	<string name="hi_msg">Hi, please start your trip</string>
+	<string name="add_friend">Add friend</string>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+	<TextView
+	    android:id="@+id/tripid"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:paddingLeft="15dp"
+	    android:text="Tripid"
+	    android:textSize="25dp" />
+
+	<TextView
+	    android:id="@+id/tripname"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:paddingLeft="15dp"
+	    android:text="Name"
+	    android:textSize="25dp" />
+
+	<TextView
+	    android:id="@+id/tripdate"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:paddingLeft="15dp"
+	    android:text="Date"
+	    android:textSize="25dp" />
+
+	<TextView
+	    android:id="@+id/tripdest"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:paddingLeft="15dp"
+	    android:text="Destination"
+	    android:textSize="25dp" />
+
+</LinearLayout>
